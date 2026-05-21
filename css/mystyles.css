@@ -1,0 +1,49 @@
+.wcenter {
+    text-align: center;
+    color: brown;
+}
+.namep {
+    border: 1px black;
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+    width: 80%;
+    margin: -40px auto 0 auto;
+    height: 150px;
+}
+.namet{
+    text-align: center;
+}
+
+.elink:hover{
+    color: white;
+    background-color:cornflowerblue;
+    border-radius: 35px;
+}
+.wbig{
+    font-size: 20px;
+    font-weight: 800;
+}
+.wgo {
+    font-size: 50px;
+    text-align: center;
+}
+.wcontact{
+    text-align: center;
+}
+section#about {
+    background-color: #71bbd9;
+}
+section#contactme {
+    background-color: #71bbd9;
+}
+section#about h1 {
+    color: white;
+}
+section#about {
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
