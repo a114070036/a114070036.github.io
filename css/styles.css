@@ -378,7 +378,7 @@ select:disabled {
 }
 
 [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
-  display: none !important;
+  display: none ;
 }
 
 button,
@@ -485,7 +485,7 @@ progress {
 }
 
 [hidden] {
-  display: none !important;
+  display: none ;
 }
 
 .lead {

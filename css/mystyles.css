@@ -47,3 +47,6 @@ section#about {
     background-attachment: fixed;
     background-size: cover;
 }
+.aboutp{
+    font-family:Noto Serif TC,serif;
+}
