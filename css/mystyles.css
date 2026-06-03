@@ -1,6 +1,6 @@
 .wcenter {
     text-align: center;
-    color: brown;
+    color: black;
 }
 .namep {
     border: 1px black;
@@ -9,7 +9,7 @@
     border-radius: 20px;
     width: 80%;
     margin: -40px auto 0 auto;
-    height: 150px;
+    height: auto;
 }
 .namet{
     text-align: center;
@@ -17,7 +17,7 @@
 
 .elink:hover{
     color: white;
-    background-color:cornflowerblue;
+    background-color:black;
     border-radius: 35px;
 }
 .wbig{
@@ -32,16 +32,16 @@
     text-align: center;
 }
 section#about {
-    background-color: #71bbd9;
+    background-color: rgb(27, 27, 27)
 }
 section#contactme {
-    background-color: #71bbd9;
+    background-color: rgb(27, 27, 27)
 }
 section#about h1 {
     color: white;
 }
 section#about {
-    background-image: url(../assets/img/bg.jpg);
+    background-image: url(../assets/img/bg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -49,4 +49,14 @@ section#about {
 }
 .aboutp{
     font-family:Noto Serif TC,serif;
+}
+section#contactme {
+    background-image: url(../assets/img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:hover {
+  color: black;
 }
